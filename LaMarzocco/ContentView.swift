@@ -9,21 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        List(sampleMenuItems, children: \.subMenuItems) { item in
+        NavigationView {
+            List(sampleMenuItems, children: \.subMenuItems) { item in
+                HStack {
+                    Image(item.image)
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 50, height: 50)
 
-            HStack {
-
-                Image(item.image)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 50, height: 50)
-
-                Text(item.name)
-                    .font(.system(.title3, design: .rounded))
-                    .bold()
+                    Text(item.name)
+                        .font(.system(.title3, design: .rounded))
+                        .bold()
+                }
             }
+            .listStyle(InsetGroupedListStyle())
+            .navigationTitle("LaMarzocco")
         }
-        .listStyle(InsetGroupedListStyle())
     }
 }
 
