@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFDA946924AC92030010EDE6 /* LaMarzoccoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA946824AC92030010EDE6 /* LaMarzoccoApp.swift */; };
+		AFDA946B24AC92030010EDE6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA946A24AC92030010EDE6 /* ContentView.swift */; };
+		AFDA946D24AC92050010EDE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDA946C24AC92050010EDE6 /* Assets.xcassets */; };
+		AFDA947024AC92050010EDE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDA946F24AC92050010EDE6 /* Preview Assets.xcassets */; };
+		AFDA947B24AC92060010EDE6 /* LaMarzoccoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA947A24AC92060010EDE6 /* LaMarzoccoTests.swift */; };
+		AFDA948624AC92060010EDE6 /* LaMarzoccoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA948524AC92060010EDE6 /* LaMarzoccoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFDA947724AC92060010EDE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDA945D24AC92030010EDE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDA946424AC92030010EDE6;
+			remoteInfo = LaMarzocco;
+		};
+		AFDA948224AC92060010EDE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFDA945D24AC92030010EDE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFDA946424AC92030010EDE6;
+			remoteInfo = LaMarzocco;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFDA946524AC92030010EDE6 /* LaMarzocco.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaMarzocco.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA946824AC92030010EDE6 /* LaMarzoccoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaMarzoccoApp.swift; sourceTree = "<group>"; };
+		AFDA946A24AC92030010EDE6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AFDA946C24AC92050010EDE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFDA946F24AC92050010EDE6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AFDA947124AC92050010EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA947624AC92060010EDE6 /* LaMarzoccoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaMarzoccoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA947A24AC92060010EDE6 /* LaMarzoccoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaMarzoccoTests.swift; sourceTree = "<group>"; };
+		AFDA947C24AC92060010EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA948124AC92060010EDE6 /* LaMarzoccoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaMarzoccoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFDA948524AC92060010EDE6 /* LaMarzoccoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaMarzoccoUITests.swift; sourceTree = "<group>"; };
+		AFDA948724AC92060010EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFDA946224AC92030010EDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA947324AC92060010EDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA947E24AC92060010EDE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFDA945C24AC92030010EDE6 = {
+			isa = PBXGroup;
+			children = (
+				AFDA946724AC92030010EDE6 /* LaMarzocco */,
+				AFDA947924AC92060010EDE6 /* LaMarzoccoTests */,
+				AFDA948424AC92060010EDE6 /* LaMarzoccoUITests */,
+				AFDA946624AC92030010EDE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFDA946624AC92030010EDE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA946524AC92030010EDE6 /* LaMarzocco.app */,
+				AFDA947624AC92060010EDE6 /* LaMarzoccoTests.xctest */,
+				AFDA948124AC92060010EDE6 /* LaMarzoccoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFDA946724AC92030010EDE6 /* LaMarzocco */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA946824AC92030010EDE6 /* LaMarzoccoApp.swift */,
+				AFDA946A24AC92030010EDE6 /* ContentView.swift */,
+				AFDA946C24AC92050010EDE6 /* Assets.xcassets */,
+				AFDA947124AC92050010EDE6 /* Info.plist */,
+				AFDA946E24AC92050010EDE6 /* Preview Content */,
+			);
+			path = LaMarzocco;
+			sourceTree = "<group>";
+		};
+		AFDA946E24AC92050010EDE6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA946F24AC92050010EDE6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AFDA947924AC92060010EDE6 /* LaMarzoccoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA947A24AC92060010EDE6 /* LaMarzoccoTests.swift */,
+				AFDA947C24AC92060010EDE6 /* Info.plist */,
+			);
+			path = LaMarzoccoTests;
+			sourceTree = "<group>";
+		};
+		AFDA948424AC92060010EDE6 /* LaMarzoccoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFDA948524AC92060010EDE6 /* LaMarzoccoUITests.swift */,
+				AFDA948724AC92060010EDE6 /* Info.plist */,
+			);
+			path = LaMarzoccoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFDA946424AC92030010EDE6 /* LaMarzocco */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA948A24AC92060010EDE6 /* Build configuration list for PBXNativeTarget "LaMarzocco" */;
+			buildPhases = (
+				AFDA946124AC92030010EDE6 /* Sources */,
+				AFDA946224AC92030010EDE6 /* Frameworks */,
+				AFDA946324AC92030010EDE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaMarzocco;
+			productName = LaMarzocco;
+			productReference = AFDA946524AC92030010EDE6 /* LaMarzocco.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFDA947524AC92060010EDE6 /* LaMarzoccoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA948D24AC92060010EDE6 /* Build configuration list for PBXNativeTarget "LaMarzoccoTests" */;
+			buildPhases = (
+				AFDA947224AC92060010EDE6 /* Sources */,
+				AFDA947324AC92060010EDE6 /* Frameworks */,
+				AFDA947424AC92060010EDE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDA947824AC92060010EDE6 /* PBXTargetDependency */,
+			);
+			name = LaMarzoccoTests;
+			productName = LaMarzoccoTests;
+			productReference = AFDA947624AC92060010EDE6 /* LaMarzoccoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFDA948024AC92060010EDE6 /* LaMarzoccoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFDA949024AC92060010EDE6 /* Build configuration list for PBXNativeTarget "LaMarzoccoUITests" */;
+			buildPhases = (
+				AFDA947D24AC92060010EDE6 /* Sources */,
+				AFDA947E24AC92060010EDE6 /* Frameworks */,
+				AFDA947F24AC92060010EDE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFDA948324AC92060010EDE6 /* PBXTargetDependency */,
+			);
+			name = LaMarzoccoUITests;
+			productName = LaMarzoccoUITests;
+			productReference = AFDA948124AC92060010EDE6 /* LaMarzoccoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFDA945D24AC92030010EDE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AFDA946424AC92030010EDE6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AFDA947524AC92060010EDE6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AFDA946424AC92030010EDE6;
+					};
+					AFDA948024AC92060010EDE6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AFDA946424AC92030010EDE6;
+					};
+				};
+			};
+			buildConfigurationList = AFDA946024AC92030010EDE6 /* Build configuration list for PBXProject "LaMarzocco" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFDA945C24AC92030010EDE6;
+			productRefGroup = AFDA946624AC92030010EDE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDA946424AC92030010EDE6 /* LaMarzocco */,
+				AFDA947524AC92060010EDE6 /* LaMarzoccoTests */,
+				AFDA948024AC92060010EDE6 /* LaMarzoccoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFDA946324AC92030010EDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA947024AC92050010EDE6 /* Preview Assets.xcassets in Resources */,
+				AFDA946D24AC92050010EDE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA947424AC92060010EDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA947F24AC92060010EDE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFDA946124AC92030010EDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA946B24AC92030010EDE6 /* ContentView.swift in Sources */,
+				AFDA946924AC92030010EDE6 /* LaMarzoccoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA947224AC92060010EDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA947B24AC92060010EDE6 /* LaMarzoccoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFDA947D24AC92060010EDE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDA948624AC92060010EDE6 /* LaMarzoccoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFDA947824AC92060010EDE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDA946424AC92030010EDE6 /* LaMarzocco */;
+			targetProxy = AFDA947724AC92060010EDE6 /* PBXContainerItemProxy */;
+		};
+		AFDA948324AC92060010EDE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFDA946424AC92030010EDE6 /* LaMarzocco */;
+			targetProxy = AFDA948224AC92060010EDE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AFDA948824AC92060010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFDA948924AC92060010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFDA948B24AC92060010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LaMarzocco/Preview Content\"";
+				DEVELOPMENT_TEAM = KM569NM77P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LaMarzocco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.LaMarzocco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFDA948C24AC92060010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"LaMarzocco/Preview Content\"";
+				DEVELOPMENT_TEAM = KM569NM77P;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = LaMarzocco/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.LaMarzocco;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AFDA948E24AC92060010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = LaMarzoccoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.LaMarzoccoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaMarzocco.app/LaMarzocco";
+			};
+			name = Debug;
+		};
+		AFDA948F24AC92060010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = LaMarzoccoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.LaMarzoccoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaMarzocco.app/LaMarzocco";
+			};
+			name = Release;
+		};
+		AFDA949124AC92060010EDE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = LaMarzoccoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.LaMarzoccoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaMarzocco;
+			};
+			name = Debug;
+		};
+		AFDA949224AC92060010EDE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KM569NM77P;
+				INFOPLIST_FILE = LaMarzoccoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vngrs.LaMarzoccoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LaMarzocco;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFDA946024AC92030010EDE6 /* Build configuration list for PBXProject "LaMarzocco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA948824AC92060010EDE6 /* Debug */,
+				AFDA948924AC92060010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA948A24AC92060010EDE6 /* Build configuration list for PBXNativeTarget "LaMarzocco" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA948B24AC92060010EDE6 /* Debug */,
+				AFDA948C24AC92060010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA948D24AC92060010EDE6 /* Build configuration list for PBXNativeTarget "LaMarzoccoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA948E24AC92060010EDE6 /* Debug */,
+				AFDA948F24AC92060010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFDA949024AC92060010EDE6 /* Build configuration list for PBXNativeTarget "LaMarzoccoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFDA949124AC92060010EDE6 /* Debug */,
+				AFDA949224AC92060010EDE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFDA945D24AC92030010EDE6 /* Project object */;
+}
