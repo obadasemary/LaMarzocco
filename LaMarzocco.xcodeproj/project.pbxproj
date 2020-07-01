@@ -13,6 +13,7 @@
 		AFDA947024AC92050010EDE6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFDA946F24AC92050010EDE6 /* Preview Assets.xcassets */; };
 		AFDA947B24AC92060010EDE6 /* LaMarzoccoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA947A24AC92060010EDE6 /* LaMarzoccoTests.swift */; };
 		AFDA948624AC92060010EDE6 /* LaMarzoccoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA948524AC92060010EDE6 /* LaMarzoccoUITests.swift */; };
+		AFDA949424AC922E0010EDE6 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDA949324AC922E0010EDE6 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AFDA948124AC92060010EDE6 /* LaMarzoccoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaMarzoccoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFDA948524AC92060010EDE6 /* LaMarzoccoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaMarzoccoUITests.swift; sourceTree = "<group>"; };
 		AFDA948724AC92060010EDE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFDA949324AC922E0010EDE6 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				AFDA946824AC92030010EDE6 /* LaMarzoccoApp.swift */,
 				AFDA946A24AC92030010EDE6 /* ContentView.swift */,
+				AFDA949324AC922E0010EDE6 /* MenuItem.swift */,
 				AFDA946C24AC92050010EDE6 /* Assets.xcassets */,
 				AFDA947124AC92050010EDE6 /* Info.plist */,
 				AFDA946E24AC92050010EDE6 /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDA949424AC922E0010EDE6 /* MenuItem.swift in Sources */,
 				AFDA946B24AC92030010EDE6 /* ContentView.swift in Sources */,
 				AFDA946924AC92030010EDE6 /* LaMarzoccoApp.swift in Sources */,
 			);
